@@ -1,6 +1,8 @@
 # callbag-pausable-interval
 
-A callbag listenable source that sends incremental numbers every x milliseconds, but can be paused (and resumed) when it is pulled by a sink. This is hybrid source, its both listenable and pullable. Don't use `forEach` directly as the sink for this source, because `forEach` pulls every time it receives data. You can use this source as the argument for `sample`, though.
+A callbag listenable source that sends incremental numbers every x milliseconds, but can be paused (and resumed) when it is pulled by a sink. 
+
+This is a hybrid source, it is both listenable and pullable. Don't use `forEach` directly as the sink for this source, because `forEach` pulls every time it receives data. You can use this source as the argument for `sample`, though.
 
 `npm install callbag-pausable-interval`
 

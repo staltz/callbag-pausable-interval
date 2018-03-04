@@ -1,0 +1,21 @@
+{
+  "name": "callbag-pausable-interval",
+  "version": "1.0.0",
+  "description": "Like callbag-interval, but can be paused and resumed upon pulling",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staltz/callbag-pausable-interval.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "keywords": [
+    "callbag"
+  ],
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
